@@ -54,7 +54,7 @@ public class BaseTest {
     }
 
     /**
-     * Отключение анимаций на эмуляторе чтобы не лагало
+     * Отключение анимаций на эмуляторе чтобы не висло
      */
     private static void disableAnimationOnEmulator() {
         executeBash("adb -s shell settings put global transition_animation_scale 0.0");
